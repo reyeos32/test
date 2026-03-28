@@ -19,19 +19,25 @@
 <body>
   <main>
     <header>
-      <a href="#">
+      <a href="#" class="logo">
         <img src="logo-dark.svg" alt="digital bank logo">
       </a>
 
-      <ul>
-        <a href="">Home</a>
-        <a href="">About</a>
-        <a href="">Contact</a>
-        <a href="">Blog</a>
-        <a href="">Careers</a>
-      </ul>
+      <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+      <label for="menu-toggle" class="menu-icon">
+        <span class="hamburger"></span>
+      </label>
 
-      <button class="btn">Request invite</button>
+      <nav class="nav-container">
+        <ul class="nav-links">
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Contact</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Careers</a></li>
+        </ul>
+        <button class="btn">Request invite</button>
+      </nav>
     </header>
 
     <section class="section1">
