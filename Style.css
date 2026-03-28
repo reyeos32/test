@@ -830,7 +830,7 @@ footer .right p {
     /* تحويل الـ nav-container لمنيو منبثقة */
     .nav-container {
         position: absolute;
-        top: 80px;
+        top: 100px;
         left: 50%;
         transform: translateX(-50%) translateY(-20px);
         width: 90%;
