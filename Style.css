@@ -982,7 +982,7 @@ footer .right p {
         justify-content: center;
         align-items: center;
         margin-bottom: 0;
-        padding: 0 100px;
+        padding: 0 40px;
     }
 
     .section1 .left-side {
@@ -1043,7 +1043,7 @@ footer .right p {
     }
 
     .section2 {
-        zoom: 0.8;
+        zoom: 0.9;
     }
 
     .section2 .parts {
@@ -1066,9 +1066,7 @@ footer .right p {
 
 
 
-    .section3 {
-        zoom: 0.9;
-    }
+    
 
     .section3 .articles {
         grid-template-columns: 1fr;
